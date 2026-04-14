@@ -13,7 +13,7 @@ Acute kidney injury (AKI) is a common and serious complication in mechanically v
 | 1 | `01_cohort_construction.Rmd` | Identify mechanically ventilated patients, apply clinical exclusion criteria (ESRD, elective surgery, pediatric), define AKI outcomes using KDIGO staging with imputed baseline creatinine |
 | 2 | `02_feature_engineering.Rmd` | Extract 74 candidate predictors from labs, vitals, vasopressors, fluid balance, and comorbidities; derive BMI, P/F ratio, SOFA components |
 | 3 | `03_imputation.Rmd` | Characterize missingness patterns; apply MICE (Multivariate Imputation by Chained Equations) for principled handling of missing data |
-| 4 | `04_machine_learning.Rmd` | Train and evaluate logistic regression, random forest, XGBoost, and neural network models with pooled predictions across imputed datasets |
+| 4 | `04_machine_learning.Rmd` | Train and evaluate logistic regression, random forest, XGBoost, and SVM models with pooled predictions across imputed datasets |
 | 5 | `05_feature_analysis.Rmd` | SHAP-based feature importance and interpretation of model predictions |
 | — | `shiny_app/` | Interactive Shiny dashboard for exploring cohort characteristics and model results |
 
