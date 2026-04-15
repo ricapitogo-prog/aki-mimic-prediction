@@ -1,4 +1,4 @@
-**[View Project Website](https://ricapitogo-prog.github.io/aki-ards-prediction/)**
+**[View Project Website](https://ricapitogo-prog.github.io/aki-mimic-prediction/)**
 
 # Predicting Acute Kidney Injury in Mechanically Ventilated ICU Patients
 
